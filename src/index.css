@@ -1,0 +1,26 @@
+@font-face {
+  font-family: SpaceMission;
+  src: url("./SpaceMission-rgyw9.otf") format("opentype");
+}
+@import url("https://fonts.googleapis.com/css2?family=Aldrich&display=swap");
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 100% !important;
+  min-height: 100vh;
+  height: 100%;
+}
