@@ -1,17 +1,16 @@
-import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
-import ReactTextTransition, { presets } from "react-text-transition";
+import { useState } from "react";
+
 import "./App.css";
 import Home from "./Pages/Home";
-import { Fade, Slide } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
 import Reveal from "react-awesome-reveal";
 import { keyframes } from "@emotion/react";
-import { findAllInRenderedTree } from "react-dom/test-utils";
+
 import Works from "./Pages/Works";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
-import { BsFillVolumeMuteFill, BsFillVolumeUpFill } from "react-icons/bs";
+
 const customAnimation = keyframes`
 from {
   opacity: 0;
